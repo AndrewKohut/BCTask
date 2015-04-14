@@ -1,0 +1,127 @@
+body{
+    background-color: #B7DAA2;  
+    padding: 50px;
+}
+.mainDiv {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	height: 100%
+}
+
+.photo_div {  
+	width: 25%;
+	margin-left: 20px;
+	margin-right: 20px;
+	padding-top: 20px;
+	float:left;
+}
+
+.image{
+  position: relative;
+  border-radius: 20px;
+}
+
+.social{
+    width: 85%;
+    margin-top: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.social_button{
+    cursor: pointer;
+    margin: 2px;
+    border: 1px solid #8BB970;
+}
+
+.social_button:hover{
+    border: 1px solid #B7DAA2;
+} 
+
+.write_button{
+      border: 1px solid #8BB970;
+      background-color: #659A45;
+      display: block;
+      padding: 10px;
+      position: relative;
+      width: auto;
+      text-align: center;
+}
+
+.write_button:hover{
+    border: 1px solid #B7DAA2;
+}
+
+a:link {
+    text-decoration: none;
+    color: #487E28;
+    font-family: monospace;
+    font-size: 20px;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #487E28;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #487E28;
+}
+
+a:active {
+    text-decoration: none;
+    color: #487E28;
+}
+
+.sticker-caption{
+    margin:0;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-top: 8px;
+    font-family: monospace;
+    font-size: 20px;
+}
+
+.div_colors{
+	background-color: #8BB970;
+	border-radius: 10px 10px 10px 10px;
+	box-shadow: 0px 0 40px rgba(0, 0, 0, 1);
+}
+
+.button_div {
+    padding: 5px;
+    display: block;
+    position: absolute;
+    right: 15px;
+    top: 100px;
+	cursor: pointer;
+	box-shadow: inset 0px -8px 24px -9px, inset 0px 10px 24px -9px white,  0px 6px 14px rgba(0, 0, 0, 0.35);
+}
+
+input, textarea{
+	width:60%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	height: 40px;
+	font-size: 28px;
+	text-align: center;
+	border: 0px;
+	border-radius: 5px 5px 5px 5px;
+	background-color: #487E28;
+	color:white;
+    margin-bottom: 10px;
+
+    border: 1px solid;
+    border-color: darkgreen;
+	//box-shadow: 1px 1px 0 rgba(42, 41, 42, 0.100), 6px 6px 14px rgba(0, 0, 0, 0.35);
+}
+ 
+::-webkit-input-placeholder {color:#659A45;}
+::-moz-placeholder          {color:#659A45;}/* Firefox 19+ */
+:-moz-placeholder           {color:#659A45;}/* Firefox 18- */
+:-ms-input-placeholder      {color:#659A45;}

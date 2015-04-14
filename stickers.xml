@@ -1,0 +1,34 @@
+<root>
+	<sticker>
+		<caption>Why do you need me?</caption>
+		<list_type>square</list_type>
+		<items>
+			<li>4 years of C# .NET experience</li>
+			<li>2 years of SLQ experience</li>
+			<li>3 month of Python</li>
+		</items>
+	</sticker>
+	<sticker>
+		<caption>What can I do for You?</caption>
+		<list_type>square</list_type>
+		<items>
+			<li>Desktop applications for personal use</li>
+			<li>Desktop applications for business</li>
+			<li>Desktop client-server applications</li>
+			<li>Service scripts</li>
+			<li>System utilities</li>
+			<li>And other applications for your needs</li>
+		</items>
+	</sticker>
+    <sticker>
+		<caption>What technologies I'm using?</caption>
+		<list_type>square</list_type>
+		<items>
+			<li>C# .NET</li>
+			<li>Python 3.4</li>
+			<li>Microsoft SQL Server</li>
+			<li>SQLite</li>
+			<li>Cherrypy</li>
+		</items>
+	</sticker>
+</root>
